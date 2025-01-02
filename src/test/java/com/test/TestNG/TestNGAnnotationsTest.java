@@ -57,16 +57,13 @@ public class TestNGAnnotationsTest {
 	
 	@AfterTest
 	public void afterTest() {
-		
-		
 		System.out.println("afterTest");
 		
 	}
+	
 	@AfterSuite
 	public void afterSuite() {
 		System.out.println("afterSuite");
-		
-		
 	}
 	@Test
 	public void test2() {
