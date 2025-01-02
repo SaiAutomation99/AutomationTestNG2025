@@ -58,6 +58,7 @@ public class TestNGAnnotationsTest {
 	@AfterTest
 	public void afterTest() {
 		
+		
 		System.out.println("afterTest");
 		
 	}
